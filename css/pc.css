@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+@media screen and (min-width:801px) {
+
+
+    /*pc영역에서 필요없는 서식 안보이게 하기*/
+    input[type=checkbox],
+    label[for=toggle],
+    nav>h3,
+    i.fa-search {
+        display: none;
+    }
+
+    .mobile_slider {
+        display: none;
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        height: 80px;
+        /* background-color:#fff; */
+        position: fixed;
+        z-index: 10;
+    }
+
+    .header_wrap {
+        width: 1280px;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    header h1 {
+        padding: 28px;
+    }
+
+    header h1 img {
+        width: 200px;
+    }
+
+    header ul {
+        position: absolute;
+    }
+
+    .lnb_pc>li {
+        float: left;
+    }
+
+    header ul a {
+        text-transform: uppercase;
+    }
+
+    ul.lnb {
+        top: 5px;
+        right: 0px;
+        display: flex;
+    }
+
+    ul.lnb a {
+        padding: 0px 30px;
+        font-size: 14px;
+    }
+
+    .lnb_mobile {
+        display: none;
+    }
+
+    ul.gnb {
+        top: 50px;
+        right: 0%;
+        display: flex;
+    }
+
+    ul.gnb a {
+        padding: 10px 46px;
+        font-size: 18px;
+    }
+
+    .sub01 {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        display: flex;
+        background-color: #ccc;
+        width: 100%;
+        height: 50px;
+        line-height: 14px;
+        opacity: 0;
+        padding-top: 30px;
+        transition: 0.5s;
+    }
+
+    .gnb>li.sub:hover>a {
+        color: #f00;
+    }
+
+    .gnb>li.sub:hover .sub01 {
+        opacity: 1;
+    }
+
+    .sub_brand a {
+        font-size: 14px !important;
+    }
+
+
+
+
+    section {
+        clear: both;
+        width: 100%;
+    }
+    article>h2{
+        padding: 25px 0px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    article.product {
+        clear: both;
+        width: 1280px;
+        margin: 0px auto;
+        height: 808px;
+        position: relative;
+    }
+
+    input[type=radio] {
+        display: none;
+    }
+
+    article.product label {
+        font-size: 18px;
+        padding: 0px 8px;
+        margin: 0px 6px 0px 10px;
+        cursor: pointer;
+    }
+
+    article.product ul>li {
+        text-align: center;
+    }
+
+    .btn {
+        display: none
+    }
+
+    #rose:checked~ul.btn_rose,
+    #pink:checked~.btn_pink,
+    #sophy:checked~.btn_sophy,
+    #baby:checked~.btn_baby,
+    #angels:checked~.btn_angels,
+    #coral:checked~.btn_coral,
+    #sugar:checked~.btn_sugar,
+    #honey:checked~.btn_honey,
+    #intensive:checked~.btn_intensive,
+    #flower:checked~.btn_flower {
+        display: block;
+    }
+
+
+
+
+    input[type=radio]:checked+label {
+        font-weight: 300;
+        color: #fff;
+        background: #f30055;
+        border: 1px solid #ccc;
+    }
+
+    article.product li.banner {
+        width: 100% !important;
+        padding: 16px 0px;
+        /* margin: 10px; */
+    }
+
+    article.product .goods {
+        width: 18%;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 0px 2% 0px 3%;
+    }
+
+    article.product .goods img {
+        width: 100%;
+    }
+
+    article.product li {
+        float: left;
+    }
+
+    article.product .btn_more {
+        position: absolute;
+        left: 45.4%;
+        bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px 20px;
+
+    }
+
+    /* article.product li:nth-child(2) img{
+        width: 60%;
+    }
+
+    article.product li:nth-child(3) img{
+        width: 60%;
+    }
+
+    article.product li:nth-child(4) img{
+        width: 60%;
+    }
+
+    article.product li:nth-child(5) img{
+        width: 60%;
+    } */
+
+    .banner01 {
+        width: 100%;
+    }
+
+
+
+    article.brand_story {
+        width: 1280px;
+        height: 1150px;
+        padding: 50px 0px;
+        position: relative;
+        margin: 0px auto;
+    }
+
+    article.brand_story h2 {
+        position: absolute;
+        text-transform: uppercase;
+        z-index: 99;
+        font-size: 48px;
+        letter-spacing: 2px;
+    }
+
+    article.brand_story h2>span {
+        color: #f30055;
+        font-weight: 500;
+    }
+
+    article.brand_story h2:nth-child(1) {
+        transform: rotate(-90deg);
+        left: -240px;
+        top: 226px;
+    }
+
+    article.brand_story h2:nth-child(2) {
+        right: 158px;
+    }
+
+    article.brand_story h2:nth-child(3) {
+        top: 842px;
+        left: 14px;
+    }
+
+    article.brandstory .img_wrap img {
+        position: absolute;
+    }
+
+    article.brand_story img:nth-child(1) {
+        position: absolute;
+        width: 362px;
+        top: 600px;
+        right: -50px;
+    }
+
+    article.brand_story img:nth-child(2) {
+        position: absolute;
+        width: 650px;
+        right: 0px;
+        top: 120px;
+    }
+
+    article.brand_story img:nth-child(3) {
+        position: absolute;
+        width: 400px;
+        right: 260px;
+        bottom: 340px;
+    }
+
+    article.brand_story img:nth-child(4) {
+
+        width: 600px;
+    }
+
+    article.brand_story img:nth-child(5) {
+        position: absolute;
+        width: 600px;
+        top: 310px;
+        left: 0px;
+    }
+
+    article.brand_story img:nth-child(6) {
+        position: absolute;
+        width: 600px;
+        left: 0px;
+        top: 570px;
+    }
+
+    article.brand_story p>span {
+        color: #f30055;
+        font-weight: 500;
+    }
+
+    article.brand_story p {
+        font-size: 36px;
+        text-transform: uppercase;
+        position: absolute;
+        z-index: 101;
+    }
+
+    article.brand_story #txt01 {
+        right: 14px;
+        top: 500px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    article.brand_story #txt02 {
+        top: 916px;
+        text-align: center;
+        left: 16px;
+        line-height: 46px;
+    }
+
+    article.youtube_m {
+        clear: both;
+        background-image: url("../img/bg01.jpg");
+        background-size: 100%;
+        height: 440px;
+        background-repeat: no-repeat;
+    }
+
+    article.pick{
+        width: 1280px;
+        margin: 0px auto;
+        height: 500px;
+    }
+
+
+    footer {
+        clear: both;
+        width: 100%;
+        height: 550px;
+        background: #ccc;
+    }
+}
