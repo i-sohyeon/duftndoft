@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    ms사의 익스프롤러 브라우저 호환성을 위함    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>duftndoft renewal</title>
+
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+
+    <!--pc화면 서식-->
+    <link href="./css/pc.css" rel="stylesheet" type="text/css">
+
+    <!--모바일 화면 서식-->
+    <link href="./css/mobile.css" rel="stylesheet" type="text/css">
+
+    <link href="./css/flexslider.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <input type="checkbox" id="toggle">
+    <header>
+        <div class="header_wrap">
+            <h1><a href="./index.html" title="메인페이지바로가기"><img src="./img/t_logo.png" alt="메인로고"></a></h1>
+            <nav>
+                <ul class="lnb">
+                    <div class="lnb_pc">
+                        <li><a href="#" title="login">login</a></li>
+                        <li><a href="#" title="join">join</a></li>
+                        <li><a href="#" title="search">search</a></li>
+                        <li><a href="#" title="cart">cart</a></li>
+                            <select name="language" id="language">
+                                <option value="korean">korean</option>
+                                <option value="english">english</option>
+                                <option value="chiness">chiness</option>
+                            </select>
+                    </div>
+
+                    <div class="lnb_mobile">
+                        <li><i class='fas fa-user-alt'></i></li>
+                        <li><i class='fas fa-shopping-cart'></i></li>
+                    </div>
+                </ul>
+
+            </nav>
+
+            <nav id="navi">
+                <label for="toggle"><i class="fas fa-times"></i></label>
+                <ul class="gnb">
+                    <li class="sub"><a href="#" title="brand">brand</a>
+                        <ul class="sub_brand sub01">
+                            <li><a href="#" title="브랜드스토리">브랜드스토리</a></li>
+                            <li><a href="#" title="성분스토리">성분스토리</a></li>
+                            <li><a href="#" title="향기스토리">향기스토리</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="sub"><a href="#" title="product">product</a>
+                        <ul class="sub_product sub01">
+                            <li>유형별제품
+                                <ul>
+                                    <li>핸드케어</li>
+                                    <li>헤어케어</li>
+                                    <li>바디케어</li>
+                                    <li>드레스퍼퓸</li>
+                                    <li>스킨케어</li>
+                                    <li>선케어</li>
+                                    <li>클렌징</li>
+                                    <li>세트/선물</li>
+                                    <li>립케어</li>
+                                    <li>스페셜</li>
+                                    <li>남성</li>
+                                </ul>
+                            </li>
+
+
+                            <li>라인별제품
+                                <ul>
+                                    <li>바디스프레이</li>
+                                    <li>브이진</li>
+                                    <li>비베리클리어</li>
+                                    <li>하이드라수더</li>
+                                    <li>손소독제</li>
+                                    <li>유브이퍼펙션</li>
+                                    <li>유키누옴므</li>
+                                </ul>
+                            </li>
+
+
+                            <li>향기별제품
+                                <ul>
+                                    <li>스톡홀름로즈</li>
+                                    <li>핑크브리즈</li>
+                                    <li>소피소피</li>
+                                    <li>베이비소피</li>
+                                    <li>엔젤스코튼</li>
+                                    <li>코랄패션</li>
+                                    <li>슈가딜라이트</li>
+                                    <li>허니블러썸</li>
+                                    <li>인텐시브</li>
+                                    <li>소피플라워</li>
+                                </ul>
+                            </li>
+
+                            <li>all product</li>
+
+
+                        </ul>
+
+
+                    </li>
+
+
+                    <li><a href="#" title="">주말특가</a></li>
+                    <li><a href="#" title="">c/s center</a></li>
+                    <li><a href="#" title="">Event</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <label for="toggle"><i class='fas fa-bars'>
+                <span>토글버튼</span></i></label>
+        <i class="fas fa-search"><span>검색</span></i>
+    </header>
+
+
+    <section>
+        <div class="flexslider pc_slider">
+            <ul class="slides">
+                <li><img src="./img/visual01.gif" alt="visual01"></li>
+                <li><img src="./img/visual02.jpg" alt="visual02"></li>
+                <li><img src="./img/visual03.jpg" alt="visual03"></li>
+                <li><img src="./img/visual04.jpg" alt="visual04"></li>
+                <li><img src="./img/visual05.jpg" alt="visual05"></li>
+                <li><img src="./img/visual06.gif" alt="visual06"></li>
+            </ul>
+        </div>
+
+        <div class="flexslider mobile_slider">
+            <ul class="slides">
+                <li><img src="./img/m_visual01.gif" alt="visual01"></li>
+                <li><img src="./img/m_visual02.jpg" alt="visual02"></li>
+                <li><img src="./img/m_visual03.jpg" alt="visual03"></li>
+                <li><img src="./img/m_visual04.jpg" alt="visual04"></li>
+                <li><img src="./img/m_visual05.jpg" alt="visual05"></li>
+
+            </ul>
+        </div>
+
+
+        <article class="product">
+            <h2>duft & doft product</h2>
+            
+            <input type="radio" name="a" id="rose" checked>
+            <label for="rose">#스톡홀름 로즈</label>
+
+            <input type="radio" name="a" id="pink">
+            <label for="pink">#핑크브리즈</label>
+
+
+            <input type="radio" name="a" id="sophy">
+            <label for="sophy">#소피소피</label>
+
+            <input type="radio" name="a" id="baby">
+            <label for="baby">#베이비소피</label>
+
+            <input type="radio" name="a" id="angels">
+            <label for="angels">#엔젤스코튼</label>
+
+            <input type="radio" name="a" id="coral">
+            <label for="coral">#코랄패션</label>
+
+            <input type="radio" name="a" id="sugar">
+            <label for="sugar">#슈가딜라이트</label>
+
+            <input type="radio" name="a" id="honey">
+            <label for="honey">#허니블러썸</label>
+
+            <input type="radio" name="a" id="flower">
+            <label for="flower">#소피플라워</label>
+
+            <input type="radio" name="a" id="intensive">
+            <label for="intensive">#인텐시브</label>
+
+        
+
+
+            <ul class="btn_rose btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_rose01.jpg" alt="rose"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_rose02.jpg" alt="rose02"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_rose03.jpg" alt="rose03"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_rose04.jpg" alt="rose04"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_rose05.jpg" alt="rose05"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+
+
+            <ul class="btn_pink btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_pink01.jpg" alt="pink"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_pink02.jpg" alt="rose02"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_pink03.jpg" alt="rose03"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_pink04.jpg" alt="rose04"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_pink05.jpg" alt="rose05"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+            <ul class="btn_sophy btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_sophy01.jpg" alt="sophy"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_sophy02.jpg" alt="rose02"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_sophy03.jpg" alt="rose03"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_sophy04.jpg" alt="rose04"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_sophy05.jpg" alt="rose05"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+            <ul class="btn_baby btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_baby01.jpg" alt="baby"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_baby02.jpg" alt="rose02"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_baby03.jpg" alt="rose03"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_baby04.jpg" alt="rose04"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_baby05.jpg" alt="rose05"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+            <ul class="btn_angels btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_angel01.jpg" alt="angel"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_angel02.jpg" alt="angel"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_angel03.jpg" alt="angel"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_angel04.jpg" alt="angel"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_angel05.jpg" alt="angel"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+            <ul class="btn_coral btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_coral01.jpg" alt="coral"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_coral02.jpg" alt="angel"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+            <ul class="btn_sugar btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_sugar01.jpg" alt="sugar"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_sugar02.jpg" alt="sugar"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_sugar03.jpg" alt="sugar"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_sugar04.jpg" alt="sugar"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+            <ul class="btn_honey btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_honey01.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_honey02.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_honey03.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_honey04.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_honey05.jpg" alt="honey"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+                
+            </ul>
+
+            <ul class="btn_intensive btn">
+                <li class="banner"><a href="#" title=""><img src="./img/product_intensive01.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_intensive02.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_intensive03.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_intensive04.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_intensive05.jpg" alt="honey"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+            </ul>
+
+            <ul class="btn_flower btn">
+                <li class="goods"><a href="#" title=""><img src="./img/product_flower02.jpg" alt="honey"></a></li>
+                <li class="goods"><a href="#" title=""><img src="./img/product_flower03.jpg" alt="honey"></a></li>
+                <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
+               
+            </ul>
+
+        </article>
+
+        <div>
+            <img src="./img/banner01.jpg" alt="banner01" class="banner01">
+        </div>
+
+        <article class="brand_story">
+            <h2><span>brand</span> promise</h2>
+            <h2>about <span>brand</span></h2>
+            <h2><span>brand</span> philosohy</h2>
+
+            <p id="txt01">more fragrant, more beautiful<br><span>"더 향기롭고 더 아름답게"</span></p>
+            <p id="txt02">더프트앤도프트는 세상을 더 아름답게 만들기 위해 노력합니다.</p>
+            <div class="img_wrap">
+                <img src="./img/brandstory01.jpg" alt="brandstory01">
+                <img src="./img/brandstory02.jpg" alt="brandsotry02">
+                <img src="./img/brandstory03.jpg" alt="brandstory03">
+                <img src="./img/brand_promise01.jpg" alt="brand_promise01">
+                <img src="./img/brand_promise02.jpg" alt="brand_promise02">
+                <img src="./img/brand_promise03.jpg" alt="brand_promise03">
+            </div>
+        </article>
+
+
+        <article class="youtube_m"></article>
+
+        <article class="pick">
+            <h2>md's pick</h2>
+
+        </article>
+
+
+    </section>
+
+
+    <footer>
+
+    </footer>
+
+
+
+    <!--제이쿼리 라이브러리-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--아이콘폰트 서식 삽입-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!--플렉스 슬라이드 제이쿼리 소스-->
+    <script src="./script/jquery.flexslider.js"></script>
+
+    <script>
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });
+        });
+    </script>
+</body>
+
+</html>
