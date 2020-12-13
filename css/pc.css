@@ -80,7 +80,7 @@
         font-size: 18px;
     }
 
-    .sub01 {
+    /* .sub01 {
         position: absolute;
         top: 30px;
         left: 0;
@@ -104,7 +104,7 @@
 
     .sub_brand a {
         font-size: 14px !important;
-    }
+    } */
 
 
 
@@ -222,7 +222,7 @@
 
     article.brand_story {
         width: 1280px;
-        height: 1150px;
+        height: 916px;
         padding: 50px 0px;
         position: relative;
         margin: 0px auto;
@@ -248,7 +248,8 @@
     }
 
     article.brand_story h2:nth-child(2) {
-        right: 158px;
+        right: 0px;
+        top: 42px;
     }
 
     article.brand_story h2:nth-child(3) {
@@ -278,7 +279,7 @@
         position: absolute;
         width: 400px;
         right: 260px;
-        bottom: 340px;
+        bottom: 110px;
     }
 
     article.brand_story img:nth-child(4) {
@@ -314,7 +315,7 @@
 
     article.brand_story #txt01 {
         right: 14px;
-        top: 500px;
+        top: 490px;
         line-height: 50px;
         text-align: center;
     }
