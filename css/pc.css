@@ -122,7 +122,7 @@
         clear: both;
         width: 1280px;
         margin: 0px auto;
-        height: 808px;
+        height: 808px !important;
         position: relative;
     }
 
@@ -232,7 +232,7 @@
         position: absolute;
         text-transform: uppercase;
         z-index: 99;
-        font-size: 48px;
+        font-size: 36px;
         letter-spacing: 2px;
     }
 
@@ -243,8 +243,8 @@
 
     article.brand_story h2:nth-child(1) {
         transform: rotate(-90deg);
-        left: -240px;
-        top: 226px;
+        left: -192px;
+        top: 158px;
     }
 
     article.brand_story h2:nth-child(2) {
@@ -253,7 +253,7 @@
     }
 
     article.brand_story h2:nth-child(3) {
-        top: 842px;
+        top: 814px;
         left: 14px;
     }
 
@@ -264,7 +264,7 @@
     article.brand_story img:nth-child(1) {
         position: absolute;
         width: 362px;
-        top: 600px;
+        top: 564px;
         right: -50px;
     }
 
@@ -279,7 +279,7 @@
         position: absolute;
         width: 400px;
         right: 260px;
-        bottom: 110px;
+        top: 598px;
     }
 
     article.brand_story img:nth-child(4) {
@@ -307,21 +307,21 @@
     }
 
     article.brand_story p {
-        font-size: 36px;
+        font-size: 26px;
         text-transform: uppercase;
         position: absolute;
         z-index: 101;
     }
 
     article.brand_story #txt01 {
-        right: 14px;
-        top: 490px;
-        line-height: 50px;
+        right: 98px;
+        top: 494px;
+        line-height: 32px;
         text-align: center;
     }
 
     article.brand_story #txt02 {
-        top: 916px;
+        top: 870px;
         text-align: center;
         left: 16px;
         line-height: 46px;
