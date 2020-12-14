@@ -80,6 +80,21 @@
         font-size: 18px;
     }
 
+    #navi{
+        width: 1280px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .sub:hover .dropdown{
+        display: block;
+    }
+    
+    .dropdown > ul{
+        width: 100%;
+        
+    }
+
     /* .sub01 {
         position: absolute;
         top: 30px;
@@ -334,11 +349,22 @@
         height: 440px;
         background-repeat: no-repeat;
     }
-
-    article.pick{
+    div.pick_wrap{
         width: 1280px;
         margin: 0px auto;
+    }
+    article.pick{
+        width: 48%;
+        margin: 0px auto;
         height: 500px;
+        float: left;
+    }
+
+    article.hotnew{
+        width: 48%;
+        margin: 0px auto;
+        height: 500px;
+        float: right;
     }
 
 
@@ -347,5 +373,6 @@
         width: 100%;
         height: 550px;
         background: #ccc;
+        font-size: 12px;
     }
 }
