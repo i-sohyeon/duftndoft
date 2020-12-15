@@ -94,10 +94,12 @@ article h2{
 
 input[type=radio]{
     display: none;
-    width: 108px;
+    /* width: 108px; */
 }
-div.label_wrap{
-    width: 80%;
+
+.btn_size{
+    width: 100px;
+    padding: 10px;
 }
 
 article.product{
