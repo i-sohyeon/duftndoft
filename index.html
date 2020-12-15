@@ -57,7 +57,7 @@
                     <li class="sub brand">
                         <a href="#" title="brand">brand</a>
                         <div class="dropdown">
-                            <ul class="sub_brand sub01">
+                            <ul>
                                 <li><a href="#" title="브랜드스토리">브랜드스토리</a></li>
                                 <li><a href="#" title="성분스토리">성분스토리</a></li>
                                 <li><a href="#" title="향기스토리">향기스토리</a></li>
@@ -67,8 +67,8 @@
 
                     <li class="sub product"><a href="#" title="product">product</a>
                         <div class="dropdown">
-                            <ul class="sub_product sub01">
-                                <li>유형별제품
+                            <ul>
+                                <li class="product_sub"><a href="#" title="">유형별제품</a>
                                     <ul>
                                         <li>핸드케어</li>
                                         <li>헤어케어</li>
@@ -85,7 +85,7 @@
                                 </li>
 
 
-                                <li>라인별제품
+                                <li class="product_sub"><a href="#" title="">라인별제품</a>
                                     <ul>
                                         <li>바디스프레이</li>
                                         <li>브이진</li>
@@ -98,7 +98,7 @@
                                 </li>
 
 
-                                <li>향기별제품
+                                <li class="product_sub"><a href="#" title="">향기별제품</a>
                                     <ul>
                                         <li>스톡홀름로즈</li>
                                         <li>핑크브리즈</li>
@@ -113,7 +113,14 @@
                                     </ul>
                                 </li>
 
-                                <li>all product</li>
+                                <li class="product_sub"><a href="#" title="">all product</a></li>
+
+                            <!-- <li>
+                                    <ul>
+                                        <li><img src="./img/prodcut_img01" alt=""></li>
+                                        <li><img src="./img/prodcut_img02" alt=""></li>
+                                    </ul>
+                                </li> -->
 
 
                             </ul>
@@ -123,7 +130,21 @@
 
 
                     <li><a href="#" title="">주말특가</a></li>
-                    <li><a href="#" title="">c/s center</a></li>
+
+                    <li class="sub center"><a href="#" title="">c/s center</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li>고객센터</li>
+                                <li>멤버십</li>
+                                <li>FAQ</li>
+                                <li>1:1 상담</li>
+                                <li>카카오톡 QnA</li>
+                                <li>store</li>
+                                <li>review</li>
+
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="#" title="">Event</a></li>
                 </ul>
             </nav>
@@ -163,7 +184,7 @@
             <h2>duft & doft product</h2>
 
             <input type="radio" name="a" id="rose" checked>
-            <label for="rose">#스톡홀름 로즈</label>
+            <label for="rose" class="btn_size">#스톡홀름 로즈</label>
 
             <input type="radio" name="a" id="pink">
             <label for="pink">#핑크브리즈</label>
@@ -204,6 +225,8 @@
                 <li class="goods"><a href="#" title=""><img src="./img/product_rose05.jpg" alt="rose05"></a></li>
                 <li class="btn_more"><a href="#" title="">상품 더보기</a></li>
             </ul>
+
+        
 
 
 
@@ -326,18 +349,21 @@
 
 
     <footer>
-        <ul>
-            <li><a href="#" title="">회사소개</a></li>
-            <li><a href="#" title="">이용약관</a></li>
-            <li><a href="#" title="">정보정책</a></li>
-            <li><a href="#" title="">쇼핑가이드</a></li>
-            <li><a href="#" title="">uqinu</a></li>
-        </ul>
+        <div class="footer_wrap">
+            <ul>
+                <li><a href="#" title="">회사소개</a></li>
+                <li><a href="#" title="">이용약관</a></li>
+                <li><a href="#" title="">정보정책</a></li>
+                <li><a href="#" title="">쇼핑가이드</a></li>
+                <li><a href="#" title="">uqinu</a></li>
+            </ul>
+        
 
         서울특별시 강남구 테헤란로 414 (대치동) 엘앤비타워 6층
         상호 : (주)제너럴브랜즈 | 대표 : 박재홍 | 사업자등록번호 : 312-86-51726 (사업자정보확인)
         통신판매업신고번호 : 제 2016-서울강남-04337호 | 개인정보관리책임자 : 나철균(ncg@duftndoft.com)
         Copyright 2015 DUFT&DOFT. ALL RIGHTS RESERVED
+    </div>
     </footer>
 
 
