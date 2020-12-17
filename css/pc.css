@@ -11,13 +11,15 @@
         display: none;
     }
 
-  
+
 
     .mobile_slider {
         display: none;
     }
-    li.sub>a:hover{
-        color:#f30055;
+    .mobile{display: none;}
+
+    li.sub>a:hover {
+        color: #f30055;
     }
 
     body {
@@ -27,7 +29,7 @@
     header {
         width: 100%;
         height: 80px;
-        background-color:#fff;
+        background-color: #fff;
         position: fixed;
         z-index: 10;
     }
@@ -84,66 +86,68 @@
         font-size: 18px;
     }
 
-    #navi{
+    #navi {
         width: 1280px;
     }
- 
-    .dropdown{
+
+    .dropdown {
         display: none;
     }
 
-    .font_s{
+    .font_s {
         font-weight: 700;
         padding: 50px;
     }
 
 
-    .sub:hover .dropdown{
+    .sub:hover .dropdown {
         display: block;
     }
 
-    li.product_sub>ul{
+    li.product_sub>ul {
         padding: 10px;
     }
 
-    li.product_sub>ul>li{
+    li.product_sub>ul>li {
         padding: 4px 40px;
     }
-    .dropdown > ul{
+
+    .dropdown>ul {
         width: 100%;
         margin: 12px 0px;
         padding: 10px;
         background: #fff;
     }
 
-    .dropdown > ul li.product_sub{
+    .dropdown>ul li.product_sub {
         background: #fff;
         height: 300px;
     }
 
 
-    li.brand li{
+    li.brand li {
         float: left;
     }
 
-    li.sub .dropdown>ul{
+    li.sub .dropdown>ul {
         width: 100%;
     }
 
-    .dropdown{
+    .dropdown {
         position: absolute;
         left: 0px;
         width: 100%;
     }
 
-    .dropdown>ul>li{
+    .dropdown>ul>li {
         float: left;
     }
 
-    li.product_sub>a{
+    li.product_sub>a {
         padding: 20px 50px;
     }
-    li.cscenter ul>li{
+
+    li.cscenter ul>li {
         padding: 10px 20px;
     }
 
@@ -153,7 +157,7 @@
         width: 100%;
     }
 
-    article>h2{
+    article>h2 {
         padding: 25px 0px;
         font-size: 30px;
         text-transform: uppercase;
@@ -185,13 +189,15 @@
     .btn {
         display: none
     }
-    .btn li.goods{
+
+    .btn li.goods {
         box-sizing: border-box;
     }
-    .btn li.goods img:hover{
+
+    .btn li.goods img:hover {
         transform: scale(1.09);
         transition: 0.5s;
-    
+
     }
 
     #rose:checked~ul.btn_rose,
@@ -247,13 +253,14 @@
 
     }
 
-    article.product .btn_more:hover{
-        background:#333;
-        color:#fff;
+    article.product .btn_more:hover {
+        background: #333;
+        color: #fff;
         transition: 0.6s;
     }
-    article.product .btn_more:hover a{
-        color:#fff;
+
+    article.product .btn_more:hover a {
+        color: #fff;
     }
 
 
@@ -378,21 +385,24 @@
         background-repeat: no-repeat;
         text-align: center;
     }
-    article.youtube_m iframe{
+
+    article.youtube_m iframe {
         padding: 50px;
     }
-    div.pick_wrap{
+
+    div.pick_wrap {
         width: 1280px;
         margin: 0px auto;
     }
-    article.pick{
+
+    article.pick {
         width: 48%;
         margin: 0px auto;
         height: 500px;
         float: left;
     }
 
-    article.hotnew{
+    article.hotnew {
         width: 48%;
         margin: 0px auto;
         height: 500px;
@@ -403,14 +413,61 @@
     footer {
         clear: both;
         width: 100%;
-        height: 250px;
-        background: #ccc;
+        height: 350px;
+        background: #f4f4f4;
         font-size: 12px;
+        padding: 30px;
+        position: relative;
     }
 
-    .footer_wrap{
+    footer .f_first {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    footer .f_first a {
+        padding: 10px 20px;
+        margin: 10px 0px;
+        font-size: 14px;
+    }
+
+    footer .f_left01 {
+        display: flex;
+        float: left;
+    }
+
+    footer .f_left01 img {
+        width: 140px;
+        padding: 56px 20px;
+    }
+
+    footer .f_left02 {
+        float: left;
+        padding: 92px 20px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    footer .f_right01 {
+        float: right;
+    }
+
+    .f_bottom {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        line-height: 18px;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+
+    .footer_wrap {
         width: 1280px;
         margin: 0px auto;
+
 
     }
 }
