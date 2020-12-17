@@ -91,13 +91,54 @@
     #navi {
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, .7);
+        background-color: rgba(0, 0, 0,.9);
         position: fixed;
         top: 0px;
         left: -100%;
         z-index: 5000;
         transition: 0.5s;
     }
+
+    #navi img.f_logo{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 180px;
+    }
+
+.join_log{
+    position: relative;
+}
+
+    /* #navi .join_log a{
+        color:#fff;
+        padding: 20px;
+        position: absolute;
+        border: 1px solid #ccc;
+    } */
+
+    .join, .login{
+        color:#fff;
+        padding: 10px 10px;
+        width: 100px;
+        position: absolute;
+        margin: 20px;
+    }
+
+    .join{
+        left: 160px;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin: 20px 100px;
+    }
+
+    .login{
+        left: 80px;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin: 20px 50px;
+    }
+
 
     /*토글 열기버튼 서식*/
     #toggle:checked~header #navi {
