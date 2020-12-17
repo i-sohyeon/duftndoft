@@ -41,7 +41,7 @@
     }
 
     header h1 {
-        padding: 28px;
+        padding: 30px;
     }
 
     header h1 img {
@@ -387,7 +387,9 @@
     }
 
     article.youtube_m iframe {
-        padding: 50px;
+        width: 600px;
+        height: 350px;
+        padding: 40px;
     }
 
     div.pick_wrap {
@@ -451,6 +453,12 @@
         font-size: 18px;
     }
 
+    footer li.f_sns{
+        float: left;
+        font-size: 28px;
+        padding: 10px;
+    }
+
     footer .f_right01 {
         float: right;
     }
@@ -467,7 +475,12 @@
     .footer_wrap {
         width: 1280px;
         margin: 0px auto;
+    }
 
-
+    footer .f_logo{
+        position: absolute;
+        top: 270px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
