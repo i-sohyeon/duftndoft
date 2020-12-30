@@ -397,17 +397,21 @@
         margin: 0px auto;
     }
 
+    div.pick_wrap h2{
+        padding-top: 30px;
+    }
+
     article.pick {
         width: 48%;
         margin: 0px auto;
-        height: 500px;
+        height: 400px;
         float: left;
     }
 
     article.hotnew {
         width: 48%;
         margin: 0px auto;
-        height: 500px;
+        height: 400px;
         float: right;
     }
 
