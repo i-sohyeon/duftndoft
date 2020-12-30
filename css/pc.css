@@ -465,6 +465,10 @@
 
     footer .f_right01 {
         float: right;
+        padding-top: 100px;
+        right: 220px;
+        position: absolute;
+        font-size: 20px;
     }
 
     .f_bottom {
